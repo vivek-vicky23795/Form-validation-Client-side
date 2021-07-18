@@ -1,0 +1,305 @@
+/* The Css File For The Index html file */
+
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* Element Selector : body */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+}
+
+
+/* The Class Selector  : container */
+/* Container Starts here */
+
+.container {
+
+    background-color: #1b1b1b;
+    min-width: 400px;
+    height: 95vh;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    border: 2px solid skyblue;
+    box-shadow: 0px 0px 15px 1px #0ff;
+}
+
+/* Container Ends here */
+
+
+/* The Class Selector  : Header */
+/* Header Starts here */
+
+.header {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: sandybrown;
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 1em 1em;
+    border: 2px solid skyblue;
+    letter-spacing: 2px;
+}
+
+/* Header Ends here */
+
+
+
+/* The Class Selector  : form */
+/* form Starts here */
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form ends here */
+
+
+/* From-group Starts here */
+
+.form-group {
+    min-width: 320px;
+    margin-bottom: 1.2em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+/* Form Ends here */
+
+/* The Class Selector : form-group with element : label */
+/* form-group label starts here */
+
+.form-group label {
+
+    color: lightgoldenrodyellow;
+    display: block;
+    margin-bottom: 1px;
+    letter-spacing: 3px;
+
+}
+
+/* Inner-container starts here */
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 6px;
+    background-color: dimgrey;
+    border: 2px solid dimgrey;
+    border-radius: 5px;
+}
+
+/* Inner-container ends here */
+
+
+/* form-group icons ends here */
+
+.fa-users,
+.fa-envelope,
+.fa-mobile-alt,
+.fa-unlock-alt {
+
+    color: rgb(14, 13, 13);
+    min-width: 2vw;
+    margin: 5px 1px 3px 6px;
+    font-size: 1.1em;
+}
+
+/* form-group icons Starts Here  */
+
+
+
+/* ion-icons starts here  */
+
+.form-group .ion-ios-checkmark,
+.ion-android-alert {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    visibility: hidden;
+}
+
+/* ion-icons starts here  */
+
+
+/* .form-group input Starts here */
+
+.form-group input {
+    padding: 4px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid ivory;
+    border-radius: 5px;
+}
+
+/* form-group input ends here */
+
+
+
+
+/* Form-group input placeholder starts here */
+
+.form-group input::placeholder {
+    color: #1b1b1b;
+    letter-spacing: 1px;
+}
+
+/* Form-group input placeholder ends here */
+
+
+
+
+/* .form-group .inner-container Success/Error  starts here */
+
+.form-group.success .inner-container {
+    background-color: darkcyan;
+}
+
+.form-group.error .inner-container {
+    background-color: tomato;
+}
+
+/* .form-group .inner-container Success/Error  ends here */
+
+
+/* Form-group span element starts here */
+
+.form-group span {
+    position: absolute;
+    margin-top: 3px;
+    font-size: 0.9em;
+    font-weight: lighter;
+    visibility: hidden;
+    color: azure;
+}
+
+/* Form-group span element ends here */
+
+
+
+/* form-group success input starts here*/
+
+.form-group.success input {
+    border: 3px solid #2ecc71;
+    background-color: lightgrey;
+}
+
+/* form-group success input ends here*/
+
+
+/* form-group error input starts here*/
+
+.form-group.error input {
+    border: 3px solid #e74c3c;
+}
+
+/* form-group error input ends here*/
+
+
+
+
+
+/* form-group error span starts here */
+.form-group.error span {
+    color: tomato;
+    visibility: visible;
+}
+
+/* form-group error span ends here*/
+
+
+
+
+
+.form-group.success .ion-ios-checkmark {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-group.error .ion-android-alert {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+
+/* Button Element starts here */
+
+button {
+
+    color: #151515;
+    background-color: dimgray;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 75%;
+    margin-top: -5px;
+    border: 2px solid black;
+    margin-bottom: 7px;
+}
+
+/* Button Element ends here */
+
+
+/* Paragraph-login starts here */
+
+.login {
+    color: wheat;
+    margin-bottom: 7px;
+    padding: 2px;
+}
+
+/* Paragraph-login ends here */
+
+
+/* Paragraph-login anchor element starts here */
+.login a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+/* Paragraph-login anchor element ends here */
+
+
+/* Button : hover element Starts Here */
+
+button:hover {
+    font-weight: bold;
+    color: wheat;
+    background-color: black;
+    border: 1px solid #339933;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3),
+        0 0 10px rgba(0, 255, 0, .2),
+        0 0 15px rgba(0, 255, 0, .1),
+        0 2px 0 black;
+}
+
+/* Button : hover element ends Here */
+
+
+@media only screen and (max-width : 500px) {
+    .form {
+        width: 100%;
+    }
+
+    .form-group span {
+        font-size: xx-small;
+    }
+}
